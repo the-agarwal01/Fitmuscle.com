@@ -1,0 +1,106 @@
+body{
+  color:white;
+ font-family: 'Playfair Display', serif;
+  
+}
+.left
+{
+  
+  display: inline-block;
+  position:absolute;
+  top:15px;
+  left:10px;;
+}
+.left img
+{
+  filter: invert(100%);
+}
+.center
+{
+  
+  display:block;
+  width:41%;
+  margin:15px auto;
+ }
+.right{
+  
+  position:absolute;
+  top:15px;
+  right:10px;
+
+}
+.navbar{
+  display: inline-block;
+  
+}
+.navbar li{
+  display: inline-block;
+  font-size: 20px;
+  
+}
+.navbar a{
+  color:white;
+  text-decoration: none;
+  padding:34px 15px;
+  cursor: pointer;
+  
+}
+.navbar a:hover,a.active{
+  color:grey;
+  text-decoration:underline;
+  padding:34px 15px;
+  
+}
+
+/*
+.btn
+{
+  margin:0px auto;
+  padding:4px 14px;
+  border:2px solid black;
+  border-radius:10px;
+  font-size:16px;
+  
+}
+*/
+
+.container{
+  
+margin: 160px 40px;
+padding: 20px 20px;
+border-radius: 10px;
+  width:33%;
+  height:300px;
+}
+
+.container button{
+  text-align: center;
+  display: block;
+  padding:10px;
+  margin:0px auto;
+  width:40%;
+  border-radius:16px;
+  font-size:18px;
+  font-family: serif; 
+}
+.container button:hover{
+  text-align: center;
+  display: block;
+  padding:10px;
+  margin:0px auto;
+  width:40%;
+  border-radius:16px;
+  font-size:18px;
+  font-family: serif; 
+  background:#cdcdcd;
+}
+
+.form-group input{
+  text-align: center;
+  display: block;
+  padding:10px;
+  width:40%;
+  border:1.5px solid black;
+  
+  
+}

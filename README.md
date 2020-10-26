@@ -1,2 +1,2 @@
-# Fitmuscle.com
-a simple website could be used by gym owners
+# fitmuscle.com
+A simple website for fitness freaks
